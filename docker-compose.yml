@@ -1,13 +1,11 @@
 version: '3'
-
 services:
   nginx:
-    image: nginx:1.15
+    image: kiyo35/docker-cicd:202311151250
     ports:
       - "8080:80"
     depends_on:
       - redis
-
   redis:
     image: redis:latest
     ports:
