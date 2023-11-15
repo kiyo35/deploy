@@ -2,7 +2,7 @@ version: '3'
 
 services:
   nginx:
-    image: nginx:latest
+    image: nginx:1.15
     ports:
       - "8080:80"
     depends_on:
