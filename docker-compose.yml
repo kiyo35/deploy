@@ -1,6 +1,6 @@
 version: '3'
 services:
   nginx:
-    image: kiyo35/docker-cicd:202311151912
+    image: kiyo35/docker-cicd:202311161334
     ports:
       - "8080:80"
